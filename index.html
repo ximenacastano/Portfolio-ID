@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resilience in the Workplace - Ximena Castaño Ph.D.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#b78c56',
+              text: '#333333',
+              lightBg: '#f8f9fa',
+            },
+            fontFamily: {
+              sans: ['Lato', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "wouter": "https://esm.sh/wouter@3.3.5"
+  }
+}
+</script>
+</head>
+  <body class="bg-white text-text font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
